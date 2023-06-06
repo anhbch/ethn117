@@ -133,6 +133,30 @@ body {
     /* End Home Page */
 }
 
+/******* Iphone devices *******/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+    /* Header */
+    #logo-img {
+        background: url('../images/osm-small.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+
+    .navbar-brand h1 {
+        /* Restaurant name */
+        padding-top: 10px;
+        font-size: 3.5vw;
+        /* 1vw = 1% of viewport width */
+    }
+
+    /* End Header */
+
+
+    /* End Home Page */
+}
+
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -175,6 +199,12 @@ body {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+    #logo-img {
+        background: url('../images/osm-small.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
 
     /* Header */
     .navbar-brand h1 {
