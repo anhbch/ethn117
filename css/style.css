@@ -153,8 +153,8 @@ body {
 
     #logo-img {
         background: url('../images/osm-small.png') no-repeat;
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
         margin: 5px 5px 5px 0;
     }
 
@@ -180,7 +180,7 @@ body {
     .navbar-brand h1 {
         /* Brand name */
         padding-top: 5px;
-        font-size: 6vw;
+        font-size: 3.5vw;
     }
 
     /* End Header */
