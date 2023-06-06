@@ -153,8 +153,8 @@ body {
 
     #logo-img {
         background: url('../images/osm-small.png') no-repeat;
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         margin: 5px 5px 5px 0;
     }
 
@@ -178,7 +178,7 @@ body {
 
     /* Header */
     .navbar-brand h1 {
-        /* Restaurant name */
+        /* Brand name */
         padding-top: 5px;
         font-size: 6vw;
     }
