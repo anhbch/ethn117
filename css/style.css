@@ -180,6 +180,7 @@ body {
         padding-top: 10px;
         height: 100px;
     }
+    
     .navbar-brand h1 {
         /* Brand name */
         padding-top: 10px;
@@ -190,20 +191,19 @@ body {
 
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
+@media (min-width: 480) and (max-width: 767px) {
 
     /* Header */
 
     .navbar-brand {
         padding-top: 10px;
-        height: 100px;
+        height: 200px;
     }
 
     .navbar-brand h1 {
         /* Brand name */
-        padding-top: 10px;
-        font-size: 4vw;
-        margin-top: 20px;
+        font-size: 3.5vw;
+       
     }
 
     /* End Header */
@@ -244,35 +244,45 @@ body {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-    #logo-img {
-        background: url('../images/osm-xsmall.png') no-repeat;
-        width: 50px;
-        height: 50px;
-        margin: 5px 5px 5px 0;
-    }
 
     /* Header */
+
+    .navbar-brand {
+        padding-top: 10px;
+        height: 50px;
+    }
+
     .navbar-brand h1 {
         /* Brand name */
-        padding-top: 5px;
-        font-size: 3.5vw;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        font-size: 5vw;
     }
 
     /* End Header */
 
     /* Home page */
+
     #playlist,
     #syllabus {
         text-align: center;
-        font-size: 1.5vw;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        font-size: 4vw;
+        margin-bottom: 0;
     }
 
     #playlist span,
     #syllabus span {
         text-decoration: none;
         margin-right: 10px;
+    }
+
+    .resources {
+        padding-top: 10px;
+        height: 40px;
+    }
+
+    .resources h2 {
+        font-size: 3vw;
     }
 
     #dollar-lunch,
@@ -285,11 +295,12 @@ body {
         margin: 0 auto 15px;
     }
 
+
     .col-xxs-12 {
         position: relative;
         min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
         float: left;
         width: 100%;
     }
