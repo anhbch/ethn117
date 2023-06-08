@@ -189,8 +189,8 @@ body {
     .navbar-brand h1 {
         /* Brand name */
         padding-top: 10px;
-        font-size: 4vw;
-        margin-top: 20px;
+        font-size: 6vw;
+        margin-top: 25px;
     }
 
     /* End Header */
@@ -198,7 +198,7 @@ body {
     #playlist,
     #syllabus {
         text-align: center;
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     #playlist span,
@@ -206,6 +206,7 @@ body {
         text-decoration: none;
         margin-right: 10px;
     }
+
     .resources {
         padding-top: 10px;
         height: 80px;
@@ -231,18 +232,18 @@ body {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-    #logo-img {
-        background: url('../images/osm-xsmall.png') no-repeat;
-        width: 50px;
-        height: 50px;
-        margin: 5px 5px 5px 0;
-    }
 
     /* Header */
+
+    .navbar-brand {
+        padding-top: 10px;
+        height: 100px;
+    }
+
     .navbar-brand h1 {
         /* Brand name */
-        padding-top: 5px;
-        font-size: 3.5vw;
+        padding-top: 10px;
+        font-size: 4.5vw;
     }
 
     /* End Header */
@@ -251,7 +252,7 @@ body {
     #playlist,
     #syllabus {
         text-align: center;
-        font-size: 1.5vw;
+        font-size: 4vw;
         margin-top: 5px;
         margin-bottom: 5px;
     }
