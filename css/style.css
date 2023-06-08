@@ -31,7 +31,7 @@ body {
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 0.5px 1px 0.5px #222;
+    text-shadow: 1px 1px 1px #967E76;
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
@@ -41,6 +41,48 @@ body {
 .navbar-brand a:hover,
 .navbar-brand a:focus {
     text-decoration: none;
+}
+
+.resources {
+    padding-top: 25px;
+}
+
+#playlist,
+#syllabus {
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Lora', serif;
+    color: #321E1E;
+    text-shadow: 0.8px 0.8px 0.8px #D7C0AE;
+    font-size: 1.5em;
+}
+
+#playlist span,
+#syllabus span {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#playlist:hover,
+#syllabus:hover {
+    box-shadow: 0 1px 5px 1px #EEE2CA;
+}
+
+.resources h2 {
+    font-family: 'Lora', serif;
+    color: #321E1E;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-shadow: 0.8px 0.8px 0.8px #D7C0AE;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    line-height: .7;
 }
 
 #dollar-lunch,
@@ -64,7 +106,7 @@ body {
 #food-coop:hover,
 #che-cafe:hover,
 #ksdt:hover {
-    box-shadow: 0 1px 5px 1px #cccccc;
+    box-shadow: 0 1px 5px 1px #675D50;
 }
 
 #dollar-lunch {
@@ -138,9 +180,9 @@ body {
 
     /* Header */
     #logo-img {
-        background: url('../images/osm-small.png') no-repeat;
-        width: 100px;
-        height: 100px;
+        background: url('../images/osm-xsmall.png') no-repeat;
+        width: 50px;
+        height: 50px;
         margin: 5px 5px 5px 0;
     }
 
@@ -169,20 +211,42 @@ body {
     }
 
     .navbar-brand h1 {
-        /* Restaurant name */
+        /* Brand name */
         padding-top: 10px;
         font-size: 3.5vw;
         /* 1vw = 1% of viewport width */
     }
 
     #logo-img {
-        background: url('../images/osm-small.png') no-repeat;
-        width: 100px;
-        height: 100px;
+        background: url('../images/osm-xsmall.png') no-repeat; 
+        width: 50px;
+        height: 50px;
         margin: 5px 5px 5px 0;
+        margin-top: 5px;
     }
 
     /* End Header */
+
+    #playlist,
+    #syllabus {
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    #playlist span,
+    #syllabus span {
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    .resources {
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .resources h2 {
+        padding-top: 10px;
+        font-size: 3.5vw;
+    }
 
 
     #dollar-lunch,
@@ -200,9 +264,9 @@ body {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
     #logo-img {
-        background: url('../images/osm-small.png') no-repeat;
-        width: 100px;
-        height: 100px;
+        background: url('../images/osm-xsmall.png') no-repeat;
+        width: 50px;
+        height: 50px;
         margin: 5px 5px 5px 0;
     }
 
@@ -216,6 +280,20 @@ body {
     /* End Header */
 
     /* Home page */
+    #playlist,
+    #syllabus {
+        text-align: center;
+        font-size: 1.5vw;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #playlist span,
+    #syllabus span {
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
     #dollar-lunch,
     #groundwork,
     #free-people,
